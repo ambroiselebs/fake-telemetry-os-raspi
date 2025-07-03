@@ -1,0 +1,66 @@
+{
+    "ollama": {
+        "base_url": "http://localhost:11434",
+        "model": "gemma:7b",
+        "max_tokens": 4096,
+        "temperature": 0.7,
+        "timeout": 120,
+        "retry_count": 3
+    },
+    "templates": {
+        "base_template": "templates/base_template.html"
+    },
+    "output_dir": "output/generated_courses",
+    "batch_size": 5,
+    "logging": {
+        "level": "INFO",
+        "file": "cours_generator.log"
+    },
+    "categories": {
+        "auteur": {
+            "enabled": true,
+            "css": "auteur.test1.css",
+            "js": "auteur.test1.js"
+        },
+        "mouvement": {
+            "enabled": true,
+            "css": "mouvement.css",
+            "js": "mouvement.js"
+        },
+        "notions": {
+            "enabled": true,
+            "css": "notions.css",
+            "js": "notions.js"
+        },
+        "methodes": {
+            "enabled": true,
+            "css": "methodes.css",
+            "js": "methodes.js"
+        },
+        "EAF": {
+            "enabled": true,
+            "css": "eaf.css",
+            "js": "eaf.js"
+        },
+        "outils": {
+            "enabled": true,
+            "css": "outils.css",
+            "js": "outils.js"
+        },
+        "Seconde": {
+            "enabled": true,
+            "css": "seconde.css",
+            "js": "seconde.js"
+        },
+        "Premiere": {
+            "enabled": true,
+            "css": "premiere.css",
+            "js": "premiere.js"
+        },
+        "Terminale": {
+            "enabled": true,
+            "css": "terminale.css",
+            "js": "terminale.js"
+        }
+    }
+}

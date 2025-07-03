@@ -1,0 +1,9 @@
+FICHIER INCLUS :	- /Desktop/POND_MOI_UNE_MERVEILLE_STP/test.html
+			- /Desktop/POND_MOI_UNE_MERVEILLE_STP/francais_all.md
+
+
+Creer tous les cours de toutes les classes de colleges et lycee :
+- exemple du nombre de fichier environ (voir 2-3 fois plus) francais_all.md
+- Fihcier uniquement html (doit toujours avoir les meme nom de variable (css_global pour chaque categorie))
+- Fair tous les cours remplir de facon drole avec des anecdote pas barbant, pas trop d'humour dans les notions faut que sa reste clairs juste des petites phrase de fain ou anecdote hors de la notion. Se referer a ce qui a ete fait test.html
+- Prevoir De mettre des lien qui renvoie entre tous les cours(idem notion, auteur, mouvements, ... voir pour rajouter d autre truc s il le faut image, ... ?)

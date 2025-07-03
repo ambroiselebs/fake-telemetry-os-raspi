@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexSkool - {{title}}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/{{css_file}}">
+</head>
+<body>
+
+<div class="nexskool-markdown">
+    <div class="markdown-content">
+
+        <!-- TITRE PRINCIPAL -->
+        <h1>{{emoji}} {{title}}</h1>
+
+        <!-- ZONE SOMMAIRE + IMAGE -->
+        <div class="zone-sommaire-et-image">
+            <div class="bloc-gauche">
+                <nav class="sommaire">
+                    {{sommaire}}
+                </nav>
+                <div class="phrase-accroche">
+                    <em>"{{accroche}}"</em>
+                </div>
+            </div>
+
+            {{#if image_url}}
+            <div class="zone-image-portrait">
+                <img class="portrait-auteur" src="{{image_url}}" alt="{{title}}" />
+            </div>
+            {{/if}}
+        </div>
+
+        <!-- SECTIONS -->
+        {{content}}
+
+    </div>
+</div>
+
+<script src="/js/{{js_file}}"></script>
+
+</body>
+</html>
